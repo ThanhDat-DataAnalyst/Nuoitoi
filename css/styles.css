@@ -208,19 +208,6 @@ button {
   background: rgba(37, 99, 235, 0.02);
 }
 
-.btn--coffee {
-  width: 100%;
-  background: #ffdd00;
-  color: #000000;
-  font-weight: 600;
-  padding: var(--space-4) var(--space-6);
-}
-
-.btn--coffee:hover {
-  background: #ffd000;
-  transform: translateY(-1px);
-}
-
 .btn--momo {
   width: 100%;
   background: #a50064;
@@ -859,80 +846,6 @@ button {
 .bank-info__value.copyable i {
   font-size: 0.875rem;
   opacity: 0.5;
-}
-
-/* Coffee Section */
-.coffee-preview {
-  text-align: center;
-  margin-bottom: var(--space-6);
-}
-
-.coffee-icon {
-  width: 80px;
-  height: 80px;
-  margin: 0 auto var(--space-4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #ffdd00, #ffd000);
-  border-radius: 50%;
-  font-size: 2.5rem;
-}
-
-.coffee-preview p {
-  font-size: 0.9375rem;
-  color: var(--color-text-secondary);
-}
-
-.coffee-tiers {
-  display: flex;
-  gap: var(--space-3);
-  margin-bottom: var(--space-6);
-}
-
-.coffee-tier {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: var(--space-1);
-  padding: var(--space-4);
-  background: var(--color-bg);
-  border: 2px solid var(--color-border);
-  border-radius: var(--radius);
-  transition: all var(--transition);
-  position: relative;
-}
-
-.coffee-tier:hover {
-  border-color: var(--color-primary);
-  background: rgba(37, 99, 235, 0.02);
-}
-
-.coffee-tier--popular {
-  border-color: var(--color-primary);
-}
-
-.coffee-tier__badge {
-  position: absolute;
-  top: -10px;
-  font-size: 0.625rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  padding: var(--space-1) var(--space-2);
-  background: var(--color-primary);
-  color: var(--color-white);
-  border-radius: var(--radius-full);
-}
-
-.coffee-tier__icon {
-  font-size: 1.25rem;
-}
-
-.coffee-tier__amount {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1rem;
 }
 
 /* Momo Section */
