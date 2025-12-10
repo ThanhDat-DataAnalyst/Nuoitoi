@@ -723,10 +723,11 @@ button {
 
 .donate__methods {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--space-6);
-  max-width: 1100px;
+  max-width: 800px;
   margin: 0 auto var(--space-12);
+  justify-items: center;
 }
 
 .donate__card {
